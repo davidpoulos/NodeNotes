@@ -1,0 +1,12 @@
+#apptitle {
+  font-family: 'Ravi Prakash', cursive;
+  color: #00CC00;
+  font-size: 100; }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #00CC00;
+  border-color: #FFFFFF; }
