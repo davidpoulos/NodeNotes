@@ -1,7 +1,6 @@
 
-
 <div class="container">
-  <h2 class="text-xs-center">{{title}}</h2>
+  <h2 id="apptitle"class="text-xs-center">{{title}}</h2>
 </div>
 
 <div class="container">
@@ -10,15 +9,9 @@
 
 
 <div class="container">
-    <ul>
+    <ul id="unordered">
       {{#each notes}}
-        <div class="container">
-          <li id="{{_id}}" class="col s4 m4">
-            Note: {{text}}
-            Description: {{description}}
-            <button class="btn btn-danger pull-right"><span class="fa fa-trash" aria-hidden="true"></span></button>
-          </li>
-        </div>
+        {{> note this}}
       {{/each}}
     </ul>
 </div>
