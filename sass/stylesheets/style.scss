@@ -1,3 +1,65 @@
+body{
+  background-color: black;
+}
+
 #apptitle{
-  color: : green;
+  font-family: 'Ravi Prakash', cursive;
+  color: #00CC00;
+  font-size: 70;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #00CC00;
+    border-color: #00CC00;
+}
+
+.square {
+    float: left;
+    height: 22vw;
+    margin: 1%;
+    width: 23%;
+    border-radius: 25px;
+}
+
+.Blue {
+  background-color: #3498DB;
+}
+.Orange {
+  background-color: #E67E22;
+}
+
+.Purple {
+  background-color: #AF7AC5;
+}
+
+.Green {
+  background-color: #1ABC9C;
+}
+
+section{
+    margin:-1%;
+    padding:20px;
+}
+
+.note{
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+}
+
+.content {
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#titlebackground{
+  // background-color: black;
+  border-radius: 25px;
+
 }
