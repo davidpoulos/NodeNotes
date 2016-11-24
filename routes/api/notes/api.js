@@ -19,6 +19,7 @@ router.route('/')
         var note = new Note();
         note.text = req.body.text;
         note.description = req.body.description;
+        note.color = req.body.color;
         note.saveAsync()
           .then(function(note) {
             res.json({'status': 'success', 'note': note});
