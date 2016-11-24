@@ -5,7 +5,8 @@ Promise.promisifyAll(mongoose);
 
 var NoteSchema = new Schema({
   text: {type: 'String', required: true},
-  description: {type: 'String', required: true}
+  description: {type: 'String', required: true},
+  color: {type: 'String', required: true}
 });
 
 var Note = mongoose.model('Note', NoteSchema);
