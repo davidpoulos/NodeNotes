@@ -20,6 +20,10 @@ var noteAPI = require('./routes/api/notes/api');
 
 var app = express();
 
+
+//Pretty JSON API!
+app.set('json spaces', 2);
+
 // view engine setup
 app.engine('hbs', exphbs({extname: '.hbs', defaultLayout: 'layout'}));
 app.set('view engine', 'hbs');
