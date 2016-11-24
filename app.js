@@ -35,7 +35,7 @@ app.use (
   sassMiddleware({
     src: __dirname + '/sass',
     dest: __dirname + '/public',
-    prefix: '/stylesheets',
+    //prefix: '/stylesheets',
     debug: true,
   })
 );
